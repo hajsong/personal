@@ -1,0 +1,255 @@
+# Page settings
+
+baseurl = "http://example.org/"
+languageCode = "en-us"
+title = "Hajoon Song"
+theme = "hugo-orbit-theme"
+googleAnalytics = "UA-110544334-1"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = "Hugo Responsive Resume/CV Theme for Developers"
+    author = "Pavel Kanyshev"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles-6.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Hajoon Song"
+        tagline = "Scientist / Professor"
+        avatar = "HajoonSong.png"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: hajsong@yonsei.ac.kr"
+        title = "hajsong@yonsei.ac.kr"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+82-2-2123-2579"
+        title = "+82-2-2123-257"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//hajsong.github.io"
+        title = "hajsong.github.io"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/hajsong"
+        title = "github.com/hajsong"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "Ph.D. in Earth Sciences"
+        college = "University of Caifornia, San Diego"
+        dates = "2005 - 2011"
+
+        [[params.education.list]]
+        degree = "BSc in Atmospheric Sciences"
+        college = "Yonsei University"
+        dates = "1999 - 2005"
+
+    # Languages section
+    [params.language]
+        enable = false
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "French"
+        level = "Professional"
+
+        [[params.language.list]]
+        language = "Russian"
+        level = "Professional"
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Research Interests"
+
+        [[params.interests.list]]
+        interest = "Ocean/Atmosphere modeling"
+
+        [[params.interests.list]]
+        interest = "Air-sea interaction"
+
+        [[params.interests.list]]
+        interest = "Carbon cycle"
+
+        [[params.interests.list]]
+        interest = "Data assimilation"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Short Bio"
+        summary = "I am a scientist seeking to improve our understanding of the **interactions between air and sea, and their control on the carbon cycle in both global and regional scales.** Most of my research uses varied types of numerical simulations; from the 40-variable Lorenz-96 model to the state-of-art ocean circulation models such as MITgcm and ROMS, from forward time-stepping simulations to backward time-stepping adjoint sensitivity and data assimilation runs, and from physical ocean circulation model to that coupled with biogeochemical models."
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Assistant Professor"
+        dates = "2018 - Present"
+        company = "Department of Atmospheric Sciences, Yonsei University, Seoul, Korea"
+        details = "Principle Investigator at Air-sea Modeling Laboratory"
+
+        [[params.jobs.list]]
+        position = "Research Scientist / Postdoctoral Associate"
+        dates = "2013 - 2018"
+        company = "Department of Earth, Atmospheric and Planetary Sciences, MIT, Cambridge, USA"
+        details = "The mesoscale circulation in the Southern Ocean and biogeochemistry"
+
+        [[params.jobs.list]]
+        position = "Postdoctoral Researcher"
+        dates = "2011 - 2013"
+        company = "Ocean Sciences Department, UC, Santa Cruz, USA"
+        details = "Development of the data assilimation method for biogeochemical variables"
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-book"
+        title = "Publication"
+        intro = "**Peer-reviewed publication since 2016**."
+
+        [[params.projects.list]]
+        title = "Doddridge, E. W., J. Marshall, H. Song, M. Kelley and L. Nazarenko"
+        url = "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL082758"
+        tagline = "Eddy compensation dampens Southern Ocean SST response to westerly wind trends. _Geophys. Res. Lett._, accepted"
+
+        [[params.projects.list]]
+        title = "Kelly, T, R. Goericke, M. Kahru, H. Song and M. R. Stukel (2018)"
+        url = "https://www.researchgate.net/publication/327098710_CCE_II_Spatial_and_interannual_variability_in_export_efficiency_and_the_biological_pump_in_an_eastern_boundary_current_upwelling_system_with_substantial_lateral_advection"
+        tagline = "CCE II: Spatial and interannual variability in export efficiency and the biological pump in an eastern boundary current upwelling system with substantial lateral advection. _Deep-Sea Res. Pt I_, 140, 14-25"
+
+        [[params.projects.list]]
+        title = "Song, H., M. C. Long, P. Gaube, I. Frenger, J. Marshall and D. J. McGillicuddy Jr. (2018)"
+        url = "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2017GL076246"
+        tagline = "Seasonal variation in the correlation between anomalies of sea level and chlorophyll in the Antarctic Circumpolar Current region. _Geophys. Res. Lett._, 45, 5011-5019"
+
+        [[params.projects.list]]
+        title = "Stukel, M. R., H. Song, R. Goericke, A. J. Miller (2017)"
+        url = "https://aslopubs.onlinelibrary.wiley.com/doi/full/10.1002/lno.10636"
+        tagline = "The role of subduction and gravitational sinking in particle export, carbon sequestration, and the remineralization length scale in the California Current Ecosystem. _Limnol. Oceanogr._, 63, 363–383"
+
+        [[params.projects.list]]
+        title = "Stukel, M. R., L. I. Aluwihare, K. A. Barbeau, A. M. Chekalyuk, R. Goericke, A. J. Miller, M. D. Ohman, A. Ruacho, H. Song, B. Stephens and M. R. Landry (2017)"
+        url = "https://www.pnas.org/content/early/2017/01/19/1609435114.short"
+        tagline = "Deepwater mesoscale fronts enhance export in the California Current Ecosystem. _PNAS_, 114, 1252-1257"
+
+        [[params.projects.list]]
+        title = "Mattern, J. P., H. Song, C. A. Edward, A. M. Moore and J. Fiechter (2017)"
+        url = "https://www.sciencedirect.com/science/article/pii/S1463500316301470"
+        tagline = "Data assimilation of physical and chlorophyll observations in the California Current System using two biogeochemical models. _Ocean Model._, 109, 55-71"
+
+        [[params.projects.list]]
+        title = "Song, H., J. Marshall, D. R. Munro, S. Dutkiewicz, C. Sweeney, D. J. McGillicuddy Jr. and U. Hausmann (2016)"
+        url = "https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2016JC011714"
+        tagline = "Mesoscale modulation of air-sea CO<sub>2</sub> flux in Drake Passage. _J. Geophys. Res. Oceans._, 121, 6635-6649"
+
+        [[params.projects.list]]
+        title = "Song, H., C. A. Edwards, A. M. Moore and J. Fietcher (2016)"
+        url = "https://www.sciencedirect.com/science/article/pii/S1463500316300063"
+        tagline = "Data assimilation in a coupled physicalbiogeochemical model of the California Current System using an incremental lognormal 4-dimensional variational approach: Part 1, Model formulation and biological data assimilation twin experiments. _Ocean Model._, 106, 131-145"
+
+        [[params.projects.list]]
+        title = "Song, H., C. A. Edwards, A. M. Moore and J. Fietcher (2016)"
+        url = "https://www.sciencedirect.com/science/article/pii/S1463500316300919"
+        tagline = "Data assimilation in a coupled physicalbiogeochemical model of the California Current System using an incremental lognormal 4-dimensional variational approach: Part 2, Joint physical and biological data assimilation twin experiments. _Ocean Model._, 106, 146-158"
+
+        [[params.projects.list]]
+        title = "Song, H., C. A. Edwards, A. M. Moore and J. Fietcher (2016)"
+        url = "https://www.sciencedirect.com/science/article/pii/S1463500316300555"
+        tagline = "Data assimilation in a coupled physicalbiogeochemical model of the California Current System using an incremental lognormal 4-dimensional variational approach: Part 3, Assimilation in a realistic context using satellite and in situ observations. _Ocean Model._, 106, 159-172"
+
+        [[params.projects.list]]
+        title = "Song, H., J. Marshall, M. J. Follows, S. Dutkiewicz and G. Forget (2016)"
+        url = "https://www.sciencedirect.com/science/article/pii/S0924796316000452"
+        tagline = "Source waters for the highly productive Patagonian shelf in the southwestern Atlantic. _J. Mar. Syst._, 158, 120-128"
+
+        # [[params.projects.list]]
+        # title = "**Song, H.**, J. Marshall, P. Gaube and D. J. McGillicuddy (2015)"
+        # url = "https://github.com/aerohub/hugo-me-theme"
+        # tagline = ", Anomalous chlorofluorocarbon uptake by mesoscale eddies in the Drake Passage region. _J. Geophys. Res_. Oceans, 120, 1065-1078"
+
+    # Skills section
+    [params.skills]
+        enable = false
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Python & Django"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Javascript & jQuery"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Angular"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "HTML5 & CSS"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Ruby on Rails"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "Sketch & Photoshop"
+        level = "60%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    #
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = "Hajoon Song"

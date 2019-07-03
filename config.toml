@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://example.org/"
+baseurl = "https://hajsong.github.io/"
 languageCode = "en-us"
 title = "Hajoon Song"
 theme = "hugo-orbit-theme"
@@ -131,7 +131,7 @@ disable404 = true
         position = "Assistant Professor"
         dates = "2018 - Present"
         company = "Department of Atmospheric Sciences, Yonsei University, Seoul, Korea"
-        details = "Principle Investigator at Air-sea Modeling Laboratory"
+        details = "Principle Investigator at <a href=http://airsea.yonsei.ac.kr/>Air-sea Modeling Laboratory</a>"
 
         [[params.jobs.list]]
         position = "Research Scientist / Postdoctoral Associate"

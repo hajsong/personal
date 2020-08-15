@@ -1,16 +1,11 @@
-# Page settings
-
 baseurl = "https://hajsong.github.io/"
-languageCode = "en-us"
-title = "Hajoon Song"
-theme = "hugo-orbit-theme"
-googleAnalytics = "UA-110544334-1"
-
-# Do not build files for websites. Need them? Set to false
+disable404 = true
 disableRSS = true
 disableSitemap = true
-disable404 = true
-
+googleAnalytics = "UA-110544334-1"
+languageCode = "en-us"
+theme = "hugo-orbit-theme"
+title = "Hajoon Song"
 [params]
 
 # Meta

@@ -68,7 +68,7 @@ disable404 = true
         title = "Education"
 
         [[params.education.list]]
-        degree = "Ph.D. in Earth Sciences"
+        degree = "Ph.D. in Oceanography"
         college = "University of Caifornia, San Diego"
         dates = "2005 - 2011"
 
@@ -153,9 +153,29 @@ disable404 = true
         intro = "**Peer-reviewed publication since 2016**."
 
         [[params.projects.list]]
-        title = "Doddridge, E. W., J. Marshall, H. Song, M. Kelley and L. Nazarenko"
+        title = "Wang, S., Kranz, S. A., Kelly, T. B., Song, H., Stukel, M. R., & Cassar, N."
+        url = "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019JG005569"
+        tagline = "Lagrangian studies of net community production: The effect of diel and multiday nonsteady state factors and vertical fluxes on O<sub>2</sub>/Ar in a dynamic upwelling region. _Journal of Geophysical Research: Biogeosciences_, 125, e2019JG005569"
+
+        [[params.projects.list]]
+        title = "Song, H., Marshall, J., McGillicuddy, D. J., & Seo, H. (2020)"
+        url = "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020JC016046"
+        tagline =  "Impact of Current-Wind Interaction on Vertical Processes in the Southern Ocean. _Journal of Geophysical Research: Oceans_, 125(4), [e2020JC016046]"
+
+        [[params.projects.list]]
+        title = "Seo, H., Subramanian, A. C., Song, H., & Chowdary, J. S. (2019)"
+        url = "https://www.sciencedirect.com/science/article/pii/S096706451930061X?via%3Dihub"
+        tagline = "Coupled effects of ocean current on wind stress in the Bay of Bengal: Eddy energetics and upper ocean stratification. _ Deep-Sea Research Part II: Topical Studies in Oceanography_, 168, 104617"
+
+        [[params.projects.list]]
+        title = "Doddridge, E. W., J. Marshall, H. Song, M. Kelley and L. Nazarenko (2019)"
         url = "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL082758"
-        tagline = "Eddy compensation dampens Southern Ocean SST response to westerly wind trends. _Geophys. Res. Lett._, accepted"
+        tagline = "Eddy compensation dampens Southern Ocean SST response to westerly wind trends. _Geophys. Res. Lett._, 46(8), 4365-4377"
+
+        [[params.projects.list]]
+        title = "Song, H., Marshall, J., Campin, J. M., & McGillicuddy, D. J. (2019)"
+        url = "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL082758"
+        tagline = "Impact of Near-Inertial Waves on Vertical Mixing and Air-Sea CO2 Fluxes in the Southern Ocean. _Journal of Geophysical Research: Oceans_, 124(7), 4605-4617"
 
         [[params.projects.list]]
         title = "Kelly, T, R. Goericke, M. Kahru, H. Song and M. R. Stukel (2018)"
@@ -168,7 +188,7 @@ disable404 = true
         tagline = "Seasonal variation in the correlation between anomalies of sea level and chlorophyll in the Antarctic Circumpolar Current region. _Geophys. Res. Lett._, 45, 5011-5019"
 
         [[params.projects.list]]
-        title = "Stukel, M. R., H. Song, R. Goericke, A. J. Miller (2017)"
+        title = "Stukel, M. R., H. Song, R. Goericke, A. J. Miller (2018)"
         url = "https://aslopubs.onlinelibrary.wiley.com/doi/full/10.1002/lno.10636"
         tagline = "The role of subduction and gravitational sinking in particle export, carbon sequestration, and the remineralization length scale in the California Current Ecosystem. _Limnol. Oceanogr._, 63, 363–383"
 
